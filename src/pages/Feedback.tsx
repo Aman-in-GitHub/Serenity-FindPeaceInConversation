@@ -44,7 +44,9 @@ const Feedback = () => {
       </h2>
       <div className="pt-16 md:pt-24 flex flex-col lg:flex-row lg:justify-between items-center gap-2 w-full mt-[-60px]">
         <div className="lg:w-[50%]">
-          <h3 className="lg:text-8xl text-5xl">What can we improve?</h3>
+          <h3 className="lg:text-8xl font-black text-5xl">
+            What can we improve?
+          </h3>
           <p className="lg:text-xl my-2 md:my-6">
             Help us improve! Share your thoughts on what we can do better. Your
             feedback guides our enhancements to serve you even more effectively.
@@ -105,7 +107,7 @@ const Feedback = () => {
         </button>
         <p className="md:text-2xl">Copyright &copy; Aman 2023 - Present </p>
         <a href="" target="_blank">
-          <Github className="scale-[1.1] md:scale-[1.4]" />
+          <Github className="scale-[1.1] md:scale-[1.4] duration-300 hover:scale-[1.2] md:hover:scale-[1.5]" />
         </a>
       </footer>
     </section>
