@@ -1,7 +1,8 @@
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 
 import Feedback from './Feedback';
 import Hero from './Hero';
+
 import Info from './Info';
 
 const Home = () => {

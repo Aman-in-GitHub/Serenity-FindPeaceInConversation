@@ -14,7 +14,7 @@ const Info = () => {
 
   return (
     <section className="min-h-screen dark:bg-[#131313] px-2 md:px-8 lg:px-16 font-texts relative select-none">
-      <h2 className="text-4xl font-headings absolute top-2 md:top-6 left-2 md:left-8 lg:left-16 dark:text-white">
+      <h2 className="text-4xl font-headings absolute top-2 md:top-6 left-2 md:left-8 lg:text-6xl lg:left-16 dark:text-white">
         Profiles
       </h2>
 
