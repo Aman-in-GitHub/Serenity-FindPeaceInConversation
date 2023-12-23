@@ -9,7 +9,10 @@ const Navbar = () => {
         <img src={logo} alt="Serenity Logo" />
       </a>
       <div className="flex items-center gap-6 md:gap-12">
-        <a href="" target="_blank">
+        <a
+          href="https://github.com/Aman-in-GitHub/Serenity-FindPeaceInConversation"
+          target="_blank"
+        >
           <Github className="scale-[1.3] hover:scale-[1.4] duration-500" />
         </a>
         <ModeToggle />
