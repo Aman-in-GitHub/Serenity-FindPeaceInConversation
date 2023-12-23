@@ -15,7 +15,7 @@ const ChatUI = ({ messages, color, isFetching, welcomeMsg }) => {
   }, [isFetching]);
 
   return (
-    <div className="flex flex-col bg-[#f4f4f4] dark:bg-[#191919] items-start h-[78vh] lg:h-[77vh] overflow-auto chatUI">
+    <div className="flex flex-col bg-[#f4f4f4] dark:bg-[#191919] items-start h-[79vh] lg:h-[77vh] overflow-auto chatUI">
       <div className="flex flex-col w-full space-y-4 lg:space-y-6 h-full px-2 lg:px-4 pt-2 lg:pt-4">
         {messages?.length > 2 ? (
           messages?.slice(2).map((message) => {
