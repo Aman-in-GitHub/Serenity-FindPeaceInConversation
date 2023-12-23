@@ -195,7 +195,10 @@ const Feedback = () => {
           <img src={logo} alt="Serenity Logo" />
         </button>
         <p className="md:text-2xl">Copyright &copy; Aman 2023 - Present </p>
-        <a href="" target="_blank">
+        <a
+          href="https://github.com/Aman-in-GitHub/Serenity-FindPeaceInConversation"
+          target="_blank"
+        >
           <Github className="scale-[1.1] md:scale-[1.4] duration-300 hover:scale-[1.2] md:hover:scale-[1.5]" />
         </a>
       </footer>
