@@ -190,7 +190,7 @@ const ChatSection = () => {
       const newChat = model.startChat({
         history: history,
         generationConfig: {
-          maxOutputTokens: 100
+          maxOutputTokens: 333
         }
       });
       setChat(newChat);
@@ -276,7 +276,8 @@ const ChatSection = () => {
     if (error) {
       toast({
         variant: 'destructive',
-        description: `Server Error! Sorry for the inconvenience`
+        title: 'Server Error',
+        description: `Sorry for the inconvenience`
       });
     }
   }, [error]);
